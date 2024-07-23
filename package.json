@@ -1,0 +1,49 @@
+{
+  "name": "exlement-react",
+  "version": "1.0.0",
+  "description": "React components for Exlement - a revolutionary web development framework that extends React with powerful, AI-ready custom components.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2 || ^18.0.0",
+    "react-dom": "^17.0.2 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "rollup": "^2.75.6",
+    "rollup-plugin-dts": "^4.2.2",
+    "typescript": "^4.7.3",
+    "tslib": "^2.4.0"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "exlement",
+    "web-components",
+    "ai-components"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/exlement-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/exlement-react/issues"
+  },
+  "homepage": "https://github.com/yourusername/exlement-react#readme"
+}
